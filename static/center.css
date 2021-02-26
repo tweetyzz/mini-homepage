@@ -1,0 +1,295 @@
+.center_box {
+  flex: 1;
+  width: 540px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid rgb(209, 209, 209);
+}
+
+.title {
+  font-size: 20px;
+  color: rgb(68, 156, 201);
+  font-family: "Stylish", sans-serif;
+}
+
+.line {
+  border-bottom: 1px solid gray;
+  margin-bottom: 4px;
+}
+
+.box {
+  display: flex;
+}
+
+.recent {
+  flex: 0.5;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.item {
+  font-size: 17px;
+}
+
+.item1 {
+  color: white;
+  background-color: rgb(245, 102, 102);
+  border-radius: 6px;
+  font-family: "Stylish", sans-serif;
+  font-size: 20px;
+}
+
+.item2 {
+  color: white;
+  background-color: rgb(69, 155, 208);
+  border-radius: 6px;
+  font-family: "Stylish", sans-serif;
+  font-size: 20px;
+}
+
+.item3 {
+  color: white;
+  background-color: rgb(245, 102, 102);
+  border-radius: 6px;
+  font-family: "Stylish", sans-serif;
+  font-size: 20px;
+}
+
+.item4 {
+  color: white;
+  background-color: rgb(69, 155, 208);
+  border-radius: 6px;
+  font-family: "Stylish", sans-serif;
+  font-size: 20px;
+}
+
+.board {
+  margin-top: 45px;
+  margin-right: 20px;
+  flex: 0.5;
+  display: flex;
+  flex-direction: column;
+}
+
+.line1 {
+  border-bottom: 1px dashed grey;
+}
+
+.item5 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 17px;
+}
+
+.item6 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 17px;
+}
+
+.percent {
+  font-size: 17px;
+  font-family: "Stylish", sans-serif;
+  color: rgb(79, 87, 171);
+}
+
+.miniroom {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.photobook {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 97%;
+  overflow: auto;
+}
+
+.photodiscription > div {
+  margin-left: 15px;
+}
+
+.photodiscription .img {
+  margin-bottom: 20px;
+  margin-left: 30px;
+}
+
+.discription {
+  padding: 7px;
+  background-color: rgb(238, 237, 235);
+  font-size: 23px;
+  font-family: "Stylish", sans-serif;
+  color: rgb(110, 87, 240);
+}
+
+.calendar {
+  flex: 0.1;
+  display: flex;
+  flex-direction: row;
+  margin: 20px 10px;
+  border: 1px solid rgb(209, 208, 208);
+}
+
+.month {
+  flex: 0.2;
+  font-size: 20px;
+  font-family: "Stylish", sans-serif;
+  color: rgb(71, 121, 164);
+  display: flex;
+  justify-content: center;
+}
+
+.skfWk {
+  flex: 0.8;
+  margin-left: 10px;
+
+  font-size: 20px;
+  font-family: "Stylish", sans-serif;
+  text-align: left;
+}
+
+.sat {
+  color: blue;
+}
+
+.sun {
+  color: red;
+}
+
+.diary {
+  margin-left: 10px;
+  margin-right: 10px;
+  overflow: auto;
+  margin-bottom: 10px;
+}
+
+.Newyear {
+  border: 1px solid rgb(209, 208, 208);
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.skf {
+  padding: 5px;
+  margin-left: 10px;
+  color: rgb(71, 121, 164);
+  font-family: "Stylish", sans-serif;
+}
+
+.lock {
+  padding: 10px;
+  width: 40%;
+  margin-left: 140px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: white;
+  background-color: white;
+  cursor: pointer;
+  border: none;
+  font-size: 15px;
+}
+
+.lock:hover {
+  background-color: rgb(247, 150, 150);
+  border: none;
+}
+
+#secret-box {
+  display: none;
+}
+
+#secret-diary {
+  text-align: center;
+  font-family: "Stylish", sans-serif;
+  font-size: 16px;
+}
+
+.diary-box {
+  border: 1px solid rgb(209, 208, 208);
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.diary-name {
+  padding: 5px;
+  margin-left: 10px;
+  color: rgb(71, 121, 164);
+}
+
+.visitors {
+  background-color: #ffffff;
+  background-image: url("../static/images/pattern.png");
+  background-size: 50px;
+  position:absolute;
+  width: 59.5%;
+  height: 86%;
+  right: 100px;
+  top: 50px;
+  left: 270px;
+  bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+
+.visitor {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.number {
+  padding: 7px;
+  background-color: rgb(238, 237, 235);
+  font-size: 17px;
+  font-family: "Stylish", sans-serif;
+}
+
+.number > span {
+  color:rgb(50, 50, 201);
+}
+
+.bigbox {
+  display: flex;
+  margin-top: 10px;
+}
+
+.smallbox {
+  background-image: url("../사진/배경.jpg");
+  background-size: cover;
+  flex: 0.5;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.smallbox > img {
+  margin: 10px;
+  width: 90%;
+}
+
+.visitorsaid {
+  flex: 0.6;
+  padding: 10px;
+  flex-direction: column;
+  font-family: "Stylish", sans-serif;
+  font-size: 18px;
+}
+
+/*
+background-color: #9f9d9d;
+background-image: url("../static/images/pattern.png");
+background-size: 100px;
+position: fixed;
+right: 0px;
+top: 0px;
+left: 0px;
+bottom: 0px;
